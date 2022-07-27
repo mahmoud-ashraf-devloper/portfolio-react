@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary-color: #9658e6;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/pacman.scss';
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'La Belle Aurore';
+    src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+
+input,
+textarea {
+    font-family: 'Helvetica Neue';
+}
+
+html {
+    font-size: 62.5%;
+}
+
+// *{
+//     border: #ffffff 1px solid;
+// }
+
+body {
+    font-family: 'Helvetica Neue';
+    margin: 0;
+    font-family: 300 11px 'Helvetica Neue', 'sans-serif';
+    overflow: hidden;
+    color: #312e81;
+    background: #0f172a;
+    display: block;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+.loader-active{
+    animation: fadeOut 1s 1s;
+    animation-fill-mode: forwards;
+}
+.active {
+    color: #a09dfd;
+}
+
+.codes {
+    font-family: 'La Belle Aurore';
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.home-font, .contact-page , .about-font, ::placeholder{
+    font-family: 'Coolvetica';
+}
+
+
+.fade-in-1 {
+    animation-name: fadIn;
+    animation-delay: 0.7s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.fade-in-2 {
+    animation-name: fadIn;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.fade-in-3 {
+    animation-name: fadIn;
+    animation-delay: 1.3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+
+
+@keyframes fadIn {
+    from {
+        display: hidden;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.logo-animation {
+    animation-name: logo-animation;
+    width: 60px;
+    height: 60px;
+    transform: rotate(15deg);
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-duration: 4s;
+}
+
+@keyframes logo-animation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+.bg-logo-custom{
+    opacity: 0;
+    animation-name: logo-bg-animation;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes logo-bg-animation {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(20deg);
+    }
+}
