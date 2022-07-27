@@ -1,7 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Sidebar from '../sidebar/Sidebar';
-import Logo from '../../assets/images/logo.png';
 import HomeBg from '../../assets/images/home-bg.jpg';
 
 const Layout = () => {

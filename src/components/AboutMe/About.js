@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, { useState, useEffect} from 'react';
 import { TiChevronRight } from 'react-icons/ti';
 import AnimateLetters from './../AnimateLetters/AnimateLetters';
 import './style.scss';
