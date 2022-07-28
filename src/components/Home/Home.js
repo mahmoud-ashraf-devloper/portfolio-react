@@ -4,8 +4,8 @@ import AnimateLetters from './../AnimateLetters/AnimateLetters';
 
 const Home = () => {
     const data = {
-        name: 'hmoud Ashraf',
-        secondSentence: 'Lets Build Something Awesome Together. Harry Up'
+        name: 'hmoud',
+        secondSentence: 'Lets Build Something Awesome. Together. Harry Up'
     }
 
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,26 +16,31 @@ const Home = () => {
     }, []);
 
     return (
-            <div className='fade-in-2 w-full home-font  h-full md:pl-14 pl-2 text-white font-medium pr-32'>
-                <div className='md:text-7xl text-4xl tracking-wider '>
-                    <div className='py-8'>
-                        <span className='text-3xl text-indigo-500 codes'>&lt;h1&gt;</span>
-                        <h1 className='leading-snug'>Hi,</h1>
-                        <span className='flex leading-snug '>I am <img className='md:ml-6 md:mr-4 w-20  h-20 logo-animation' src={Logo} alt="" />
-                            <AnimateLetters letterClass={letterClass} strArr={data.name.split('')} index={15} />
-                        </span>
-                        <span className='text-3xl text-indigo-500 codes'>&lt;/h1&gt;</span>
+        <div className='fade-in-2 home-font text-white md:pl-8 pl-3 min-h-[75vh] flex items-center'>
+            <div>
+                <div className='md:text-5xl text-2xl tracking-wider '>
+                    <div className='py-2 flex flex-col'>
+                        <div className='flex items-end my-6'>
+                            <span className='text-sm text-indigo-500 codes'>&lt;h1&gt;</span>
+                            <span className=''>
+                                <span>Hi, I'm M</span>
+                                <AnimateLetters letterClass={letterClass} strArr={data.name.split('')} index={15} />
+                            </span>
+                            <span className='text-sm text-indigo-500 codes'>&lt;/h1&gt;</span>
+                        </div>
                     </div>
-                    <p className='pt-6 leading-snug '>
-                        <AnimateLetters letterClass={letterClass} strArr={data.secondSentence.split('')} index={27} />
+                    <p className='pt-2 leading-snug break-words w-100 '>
+
+                        <AnimateLetters letterClass={letterClass} strArr={data.secondSentence.split('')} index={20} />
                     </p>
-                    <div className='py-10 text-2xl text-indigo-900'>
+                    <div className='py-4 text-2xl text-indigo-900'>
                         <span className='leading-snug text-indigo-500'>Full-Stack Developer</span>
                     </div>
                 </div>
 
-                <button className='fade-in-3 mt-8 block px-8 py-4 rounded-md tracking-wider from-indigo-500 to-purple-800 text-white bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in'>CONTACT ME</button>
+                <button className='fade-in-3 mt-8 flex whitespace-nowrap px-8 py-3 rounded-md tracking-wider from-indigo-500 to-purple-800 text-white bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in'>CONTACT ME</button>
             </div>
+        </div>
 
     );
 }

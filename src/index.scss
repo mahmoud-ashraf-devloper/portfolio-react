@@ -29,42 +29,44 @@ textarea {
     font-family: 'Helvetica Neue';
 }
 
-html {
-    font-size: 62.5%;
-}
 
-// *{
-//     border: #ffffff 1px solid;
-// }
+
 
 body {
     font-family: 'Helvetica Neue';
-    margin: 0;
-    font-family: 300 11px 'Helvetica Neue', 'sans-serif';
-    overflow: hidden;
     color: #312e81;
     background: #0f172a;
-    display: block;
     --webkit-font-smoothing: antialiased;
     --moz-osx-font-smoothing: grayscale;
 }
+
+
+
+.content{
+    min-width: 100%;
+}
+
+
 .loader-active{
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
 }
 .active {
-    color: #a09dfd;
+    color: #fff;
 }
 
 .codes {
     font-family: 'La Belle Aurore';
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
 }
 
 .home-font, .contact-page , .about-font, ::placeholder{
     font-family: 'Coolvetica';
+
 }
+// .about-font::placeholder{
+//     font-size: small;
+// }
 
 
 .fade-in-1 {
@@ -107,8 +109,6 @@ body {
 
 .logo-animation {
     animation-name: logo-animation;
-    width: 60px;
-    height: 60px;
     transform: rotate(15deg);
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
