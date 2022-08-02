@@ -4,6 +4,9 @@
 
 $primary-color: #9658e6;
 
+
+
+
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
 
@@ -63,6 +66,10 @@ body {
 .home-font, .contact-page , .about-font, ::placeholder{
     font-family: 'Coolvetica';
 
+}
+
+.projects-page-font{
+    font-family: sans-serif;
 }
 // .about-font::placeholder{
 //     font-size: small;

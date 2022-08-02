@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../../assets/images/logo.png';
 import AnimateLetters from './../AnimateLetters/AnimateLetters';
 
 const Home = () => {
     const data = {
         name: 'hmoud',
-        secondSentence: 'Lets Build Something Awesome. Together. Harry Up'
+        secondSentence: 'Lets Build Something Awesome Together. Harry Up'
     }
 
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,29 +15,29 @@ const Home = () => {
     }, []);
 
     return (
-        <div className='fade-in-2 home-font text-white md:pl-8 pl-3 min-h-[75vh] flex items-center'>
-            <div>
-                <div className='md:text-5xl text-2xl tracking-wider '>
+        <div className='fade-in-2 home-font text-white md:pl-8 pl-3 min-h-[75vh] flex items-center '>
+ 
+            <div className=''>
+                <div className='md:text-5xl text-xl tracking-wider '>
                     <div className='py-2 flex flex-col'>
-                        <div className='flex items-end my-6'>
-                            <span className='text-sm text-indigo-500 codes'>&lt;h1&gt;</span>
-                            <span className=''>
+                        <div className='md:flex  items-end my-6'>
+                            <span className='text-sm block text-indigo-500 codes'>&lt;h1&gt;</span>
+                            <span className='text-violet-200'>
                                 <span>Hi, I'm M</span>
                                 <AnimateLetters letterClass={letterClass} strArr={data.name.split('')} index={15} />
                             </span>
                             <span className='text-sm text-indigo-500 codes'>&lt;/h1&gt;</span>
                         </div>
                     </div>
-                    <p className='pt-2 leading-snug break-words w-100 '>
-
+                    <p className='pt-2 leading-snug w-100 break-normal'>
                         <AnimateLetters letterClass={letterClass} strArr={data.secondSentence.split('')} index={20} />
                     </p>
-                    <div className='py-4 text-2xl text-indigo-900'>
+                    <div className='py-4 md:text-2xl text-xl text-indigo-900'>
                         <span className='leading-snug text-indigo-500'>Full-Stack Developer</span>
                     </div>
                 </div>
 
-                <button className='fade-in-3 mt-8 flex whitespace-nowrap px-8 py-3 rounded-md tracking-wider from-indigo-500 to-purple-800 text-white bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in'>CONTACT ME</button>
+                <button className='fade-in-3 mt-8 flex whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 text-white bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in'>CONTACT ME</button>
             </div>
         </div>
 
