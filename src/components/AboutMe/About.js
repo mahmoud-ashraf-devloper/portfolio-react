@@ -3,13 +3,6 @@ import { TiChevronRight } from 'react-icons/ti';
 import AnimateLetters from './../AnimateLetters/AnimateLetters';
 import './style.scss';
 
-// cuble icons
-import { GrReactjs } from 'react-icons/gr';
-import { TbBrandNextjs } from 'react-icons/tb';
-import { IoLogoJavascript } from 'react-icons/io';
-import { AiFillHtml5 } from 'react-icons/ai';
-import { DiCss3 } from 'react-icons/di';
-import { SiTailwindcss } from 'react-icons/si';
 import Cube from './../Cube/Cube';
 
 const About = () => {
