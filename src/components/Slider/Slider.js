@@ -29,14 +29,14 @@ const Slider = ({ item }) => {
             </div>
             {/* Slider controls */}
             <button onClick={() => (currentImage - 1) >= 0 ? slideTo(currentImage - 1) : null} type="button" className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-                <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <GrNext className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800 rotate-180 flex justify-center items-center" />
+                <span className="inline-flex items-center justify-center w-8 h-8 bg-black/5 group-hover:bg-black/10 rounded-full sm:w-10 sm:h-10  dark:bg-gray-800/30  dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <GrNext className="w-5 h-5  sm:w-6 sm:h-6 dark:text-gray-800 rotate-180 flex justify-center items-center" />
                     <span className="sr-only">Previous</span>
                 </span>
             </button>
             <button onClick={() => (currentImage + 1) <= item.images.length - 1 ? slideTo(currentImage + 1) : null} type="button" className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-                <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                    <GrNext className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800  flex justify-center items-center" />
+                <span className="inline-flex items-center justify-center w-8 h-8 bg-black/5 group-hover:bg-black/10 rounded-full sm:w-10 sm:h-10  dark:bg-gray-800/30  dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <GrNext className="w-5 h-5 sm:w-6 sm:h-6 dark:text-gray-800  flex justify-center items-center" />
                     <span className="sr-only">Next</span>
                 </span>
             </button>
