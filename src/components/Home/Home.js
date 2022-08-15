@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import AnimateLetters from './../AnimateLetters/AnimateLetters';
-import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     const data = {
