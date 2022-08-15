@@ -10,9 +10,9 @@ const Slider = ({ item }) => {
         setCurrentImage(index);
     }
     return (
-        <div className="relative h-full bg-white md:rounded-r-xl md:rounded-b-none rounded-b-xl" >
+        <div className="relative h-full bg-white md:rounded-r-xl  rounded-xl md:rounded-none overflow-hidden" >
             {/* Carousel wrapper */}
-            <div className="relative shadow-md h-56 overflow-hidden md:rounded-r-xl  md:h-96">
+            <div className="relative shadow-md h-56  md:h-96">
                 {/* Item 1 */}
                 <div className="w-full h-full" >
                     <img src={item.baseUrl + item.images[currentImage]} className="hover:scale-105 hover:rotate-[1deg] transition duration-500 absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
@@ -20,10 +20,10 @@ const Slider = ({ item }) => {
 
             </div>
             {/* Slider indicators */}
-            <div className="absolute shadow-lg text-black z-30 flex space-x-3 -translate-x-1/2 bottom-2 left-1/2">
+            <div className="absolute opacity-60 hover:opacity-100 transition duration-200 delay-75 ease-in-out shadow-lg bg-black/60 px-6 py-2 rounded-md z-30 flex space-x-3 -translate-x-1/2 bottom-2 left-1/2 md:overflow-hidden overflow-scroll">
                 {
-                    item.images.map((_, index) => (
-                        <button key={index} onClick={() => slideTo(index)} type="button" className={(currentImage === index ? "w-3 bg-indigo-800 hover:transform hover:-translate-y-2 transition duration-300 hover:ease-in-out h-3 rounded-full": "w-3 bg-slate-900/70 hover:transform hover:-translate-y-2 hover:transition hover:duration-300 hover:ease-in-out h-3 rounded-full")} ></button>
+                    item.images.map((image, index) => (
+                        <button key={index} onClick={() => slideTo(index)} type="button" className={(currentImage === index ? " hover:transform hover:-translate-y-2  outline outline-4 outline-indigo-400  transition duration-300 ease-in-out rounded-md": "bg-slate-900/70 hover:transform hover:-translate-y-2 hover:transition hover:duration-300 hover:ease-in-out  rounded-full")} ><img className='md:min-w-[40px] md:h-[35px] min-w-[30px] h-[30px] bg-cover shadow-md rounded-md' src={item.baseUrl +image} alt="" srcset="" /></button>
                     ))
                 }
             </div>

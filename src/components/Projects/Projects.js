@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       baseUrl: "/projects/demand-ecommerce/",
       title: "Demand Ecommerce",
-      description: "A ecommerce website for demand",
+      description: "Its an awesome project built with nextjs and styles completely with tailwindcss and its completely responsive, with awesome design, it has all the pages needed for an ecommerce web app",
       images: [
         "1.png",
         "2.png",
@@ -32,7 +32,7 @@ const Projects = () => {
       id: 2,
       baseUrl: "/projects/food-delavery/",
       title: "Food Delivery App",
-      description: "A food delivery app",
+      description: "its a food ecommerce app built with nextjs styled completely with tailwindcss and its completely responsive , with all needed pages",
       images: [
         "1.png",
         "2.png",
@@ -53,7 +53,7 @@ const Projects = () => {
       id: 3,
       baseUrl: "/projects/cloud-app/",
       title: "Cloud App",
-      description: "A cloud app",
+      description: "C web app built with Reactjs and styled completely with tailwindcss, completely responsive and good looking. it has all the sections needed",
       images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
       links: {
         liveDemo: "https://cloud-app-mahmoud.herokuapp.com/",
@@ -63,7 +63,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-page-font w-[85vw] md:w-[90vw] px-1 md:px-3 flex flex-col  space-y-6">
+    <div className="projects-page-font w-[85vw] md:w-[90vw] px-1 md:px-3 flex flex-col  space-y-">
       {projects.map((project, index) => (
         <Project key={index} project={project} />
       ))}

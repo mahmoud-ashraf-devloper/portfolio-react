@@ -15,27 +15,27 @@ import Slider from '../Slider/Slider';
 const Project = ({ project }) => {
    
     return (
-        <div className="flex md:space-y-10 flex-col md:flex-row">
-          <div className="px-2 py-4 flex flex-col items-center bg-indigo-400/30 md:rounded-l-xl md:rounded-t-none rounded-t-xl text-white  mt-10 col-span-2 md:w-1/5">
-            <h1 className="text-xl font-bold">{project.title}</h1>
-            <p className="text-sm md:py-6 py-3">{project.description}</p>
-            <div className="flex  md:py-6 py-3 md:pb-5 pb-2 lg:space-x-2 md:space-x-0 space-x-2">
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-orange-500 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+        <div className="flex space-y-10 flex-col md:flex-row">
+          <div className="px-2 w-full py-3 flex flex-col items-center bg-indigo-400/30 md:rounded-l-xl md:rounded-none rounded-xl md:mb-0  mb-2 text-white  mt-10 col-span-2 md:w-1/5">
+            <h1 className="text-xl font-bold text-slate-300 text-center">{project.title}</h1>
+            <p className="text-sm md:py-1 py-3 text-slate-400 text-center">{project.description}</p>
+            <div className="flex md:py-4 py-3 md:pb-5 pb-2 lg:space-x-1 md:space-x-0 space-x-2">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-orange-500  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <AiFillHtml5 className="w-full h-full" />
               </span>
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-slate-900 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-slate-900  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <TbBrandNextjs className="w-full h-full" />
               </span>
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-blue-500 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-blue-500  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <DiCss3 className="w-full h-full" />
               </span>
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-blue-600 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-blue-600  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <GrReactjs className="w-full h-full" />
               </span>
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-yellow-500 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-yellow-500  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <IoLogoJavascript className="w-full h-full" />
               </span>
-              <span className="lg:w-8 md:w-7 lg:h-8 md:h-7 p-1 cursor-pointer text-cyan-500 shadow-sm hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out shadow-indigo-100 rounded-full bg-indigo-400/70">
+              <span className="lg:w-8 md:w-6 lg:h-8 md:h-6 p-1 cursor-pointer text-cyan-500  hover:scale-110 hover:-translate-y-2 transition duration-300 ease-in-out  rounded-full bg-indigo-400/70">
                 <SiTailwindcss className="w-full h-full" />
               </span>
             </div>
