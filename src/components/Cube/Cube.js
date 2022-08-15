@@ -16,37 +16,37 @@ const Cube = () => {
                             <div className='w-44'>
                                 <GrReactjs className='w-full h-full text-[#5ED4F4] mb-3' />
                             </div>
-                            front
+                            ReactJs
                         </div>
                         <div className="card" id="back">
                             <div className='w-44'>
                                 <TbBrandNextjs className='w-full h-full text-black mt-3' />
                             </div>
-                            back
+                            NextJs
                         </div>
                         <div className="card" id="left">
                             <div className='w-44'>
                                 <IoLogoJavascript className='w-full h-full text-[#EFD81D] mt-3' />
                             </div>
-                            left
+                            Javascript
                         </div>
                         <div className="card" id="right">
                             <div className='w-44'>
                                 <AiFillHtml5 className='w-full h-full text-[#ee4744] mt-3' />
                             </div>
-                            right
+                            Html
                         </div>
                         <div className="card" id="top">
                             <div className='w-44'>
                                 <DiCss3 className='w-full h-full text-[#3453ef] mt-3' />
                             </div>
-                            top
+                            CSS3
                         </div>
                         <div className="card" id="bottom">
                             <div className='w-44'>
                                 <SiTailwindcss className='w-full h-full text-cyan-300 mt-3' />
                             </div>
-                            bottom
+                            Tailwindcss
                         </div>
                     </div>
                 </div>
