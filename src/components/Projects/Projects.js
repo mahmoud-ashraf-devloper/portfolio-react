@@ -63,7 +63,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-page-font w-[85vw] md:w-[90vw] px-1 md:px-3 flex flex-col  space-y-">
+    <div className="projects-page-font w-[85vw] md:w-[90vw] px-1 md:px-3 flex flex-col">
       {projects.map((project, index) => (
         <Project key={index} project={project} />
       ))}

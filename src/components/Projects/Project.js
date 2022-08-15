@@ -15,7 +15,7 @@ import Slider from '../Slider/Slider';
 const Project = ({ project }) => {
    
     return (
-        <div className="flex space-y-10 flex-col md:flex-row">
+        <div className="flex space-y-0 md:space-y-10 flex-col md:flex-row">
           <div className="px-2 w-full py-3 flex flex-col items-center bg-indigo-400/30 md:rounded-l-xl md:rounded-none rounded-xl md:mb-0  mb-2 text-white  mt-10 col-span-2 md:w-1/5">
             <h1 className="text-xl font-bold text-slate-300 text-center">{project.title}</h1>
             <p className="text-sm md:py-1 py-3 text-slate-400 text-center">{project.description}</p>
