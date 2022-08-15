@@ -18,20 +18,20 @@ const Sidebar = () => {
                 </Link>
                 <div className='flex flex-col space-y-6 w-full items-center justify-center'>
                     <NavLink exact="true" activeclassname="active" className='group cursor-pointer w-full flex justify-center relative' to="/">
-                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 opacity-17 absolute w-full h-full flex justify-center items-center'>Home</span>
-                        <AiOutlineHome className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 group-hover:opacity-0' />
+                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 absolute w-full h-full group-hover:flex justify-center items-center'>Home</span>
+                        <AiOutlineHome className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 md:group-hover:opacity-0 ' />
                     </NavLink>
                     <NavLink exact="true" activeclassname="active" className='group cursor-pointer w-full flex justify-center relative' to="/about">
-                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 opacity-17 absolute w-full h-full flex justify-center items-center'>About</span>
-                        <SiAboutdotme className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7  group-hover:opacity-0' />
+                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 absolute w-full h-full group-hover:flex justify-center items-center'>About</span>
+                        <SiAboutdotme className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7  md:group-hover:opacity-0 ' />
                     </NavLink>
                     <NavLink exact="true" activeclassname="active" className='group cursor-pointer w-full flex justify-center relative' to="/contact">
-                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 opacity-17 absolute w-full h-full flex justify-center items-center'>Contact</span>
-                        <MdMessage className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 group-hover:opacity-0' />
+                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 absolute w-full h-full group-hover:flex justify-center items-center'>Contact</span>
+                        <MdMessage className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 md:group-hover:opacity-0 ' />
                     </NavLink>
                     <NavLink exact="true" activeclassname="active" className='group cursor-pointer w-full flex justify-center relative' to="/projects">
-                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 opacity-17 absolute w-full h-full flex justify-center items-center'>Projects</span>
-                        <RiProjector2Fill className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 group-hover:opacity-0' />
+                        <span className='transition duration-500 ease-in-out md:text-xl text-sm font-bold opacity-0 group-hover:md:opacity-100 absolute w-full h-full group-hover:flex justify-center items-center'>Projects</span>
+                        <RiProjector2Fill className='transition duration-500 ease-in-out md:w-8 w-7 md:h-8 h-7 md:group-hover:opacity-0 ' />
                     </NavLink>
                 </div>
                 <div className='flex flex-col'>
