@@ -53,7 +53,7 @@ const Projects = () => {
       id: 3,
       baseUrl: "/projects/cloud-app/",
       title: "Cloud App",
-      description: "C web app built with Reactjs and styled completely with tailwindcss, completely responsive and good looking. it has all the sections needed",
+      description: "A Cloud web app built with Reactjs and styled completely with tailwindcss, completely responsive and good looking. it has all the sections needed",
       images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
       links: {
         liveDemo: "https://cloud-app-mahmoud.herokuapp.com/",
