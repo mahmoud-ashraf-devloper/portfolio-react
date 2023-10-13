@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { MapContainer } from "react-leaflet/MapContainer";
-import { TileLayer } from "react-leaflet/TileLayer";
-import { Popup } from "react-leaflet/Popup";
-import { Marker } from "react-leaflet/Marker";
 import AnimateLetters from "./../AnimateLetters/AnimateLetters";
 
 import "./style.scss";
