@@ -8,8 +8,6 @@ const Contact = () => {
     title: "Contact Me",
   };
 
-  const position = [28.499408, 30.792526];
-
   const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
