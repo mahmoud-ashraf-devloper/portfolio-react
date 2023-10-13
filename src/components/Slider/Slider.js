@@ -10,12 +10,12 @@ const Slider = ({ item }) => {
         setCurrentImage(index);
     }
     return (
-        <div className="relative h-full bg-white md:rounded-r-xl  rounded-xl md:rounded-none overflow-hidden" >
+        <div className="relative h-full bg-white md:rounded-r-xl  rounded-xl md:rounded-none overflow-hidden shadow-xl" >
             {/* Carousel wrapper */}
             <div className="relative shadow-md h-56  md:h-96">
                 {/* Item 1 */}
-                <div className="w-full h-full" >
-                    <img src={item.baseUrl + item.images[currentImage]} className="hover:scale-105 hover:rotate-[1deg] transition duration-500 absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                <div className="image-wrap" >
+                    <img src={item.baseUrl + item.images[currentImage]} className="" alt="..." />
                 </div>
 
             </div>
