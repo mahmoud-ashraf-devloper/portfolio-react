@@ -11,8 +11,7 @@ const Projects = () => {
       description: "Upwork Project, Converting png image to html and css code",
       images: ["0.png"],
       links: {
-        liveDemo: "#",
-        github: "#",
+        liveDemo: "https://strong-cupcake-c79704.netlify.app/",
       },
     },
     {
@@ -33,7 +32,6 @@ const Projects = () => {
       ],
       links: {
         liveDemo: "#",
-        github: "#",
       },
     },
     {
@@ -45,7 +43,6 @@ const Projects = () => {
       images: ["0.png", "1.png", "2.png", "3.png", "4.png"],
       links: {
         liveDemo: "https://spider-blue.netlify.app/",
-        github: "#",
       },
     },
     {
