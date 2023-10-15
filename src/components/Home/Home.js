@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AnimateLetters from "./../AnimateLetters/AnimateLetters";
-import './style.scss';
+import "./style.scss";
 
 const Home = () => {
   const data = {
@@ -50,9 +50,14 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <a href="/projects/mahmoud-frontend-dev-cv.pdf" download>
+        <a href="/projects/v-1-0-Full-Stack-CV.pdf" download>
           <button className="download-cv-font md:w-1/4 md:text-2xl  font-mono text-indigo-100 fade-in-3 mt-8 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
-            Download My Cv
+            Download My CV PDF
+          </button>
+        </a>
+        <a href="/projects/v-1-0-Full-Stack-CV.docx" download>
+          <button className="download-cv-font md:w-1/4 md:text-2xl  font-mono text-indigo-100 fade-in-3 mt-8 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
+            Download My CV PDF
           </button>
         </a>
       </div>
