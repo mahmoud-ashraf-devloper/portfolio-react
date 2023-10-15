@@ -4,9 +4,9 @@ import Logo from "../../assets/images/logo.png";
 import { AiOutlineHome } from "react-icons/ai";
 import { SiAboutdotme } from "react-icons/si";
 import { MdMessage } from "react-icons/md";
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { RiProjector2Fill } from "react-icons/ri";
-import { BiLogoUpwork } from "react-icons/bi";
+import { TbBrandUpwork } from "react-icons/tb";
 
 const Sidebar = () => {
   return (
@@ -89,7 +89,7 @@ const Sidebar = () => {
               href="https://www.upwork.com/freelancers/mahmoudashrafdev"
               rel="noreferrer"
             >
-              <BiLogoUpwork className="md:w-8 w-7 md:h-10 h-6 hover:text-indigo-500" />
+              <TbBrandUpwork className="md:w-8 w-7 md:h-10 h-6 hover:text-indigo-500" />
             </a>
           </div>
         </div>

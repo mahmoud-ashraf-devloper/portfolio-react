@@ -50,16 +50,21 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <a href="/projects/v-1-0-Full-Stack-CV.pdf" download>
-          <button className="download-cv-font md:w-1/4 md:text-2xl  font-mono text-indigo-100 fade-in-3 mt-8 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
-            Download My CV PDF
-          </button>
-        </a>
-        <a href="/projects/v-1-0-Full-Stack-CV.docx" download>
-          <button className="download-cv-font md:w-1/4 md:text-2xl  font-mono text-indigo-100 fade-in-3 mt-8 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
-            Download My CV PDF
-          </button>
-        </a>
+        <div className="flex flex-col">
+          <div className="my-4">Download My CV:</div>
+          <div className="flex md:flex-row flex-col w-full md:space-x-3 space-y-2 md:space-y-0">
+            <a href="/projects/v-1-0-Full-Stack-CV.pdf" download>
+              <button className="download-cv-font md:text-xl text-sm font-mono text-indigo-100 fade-in-3 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
+                Download PDF
+              </button>
+            </a>
+            <a href="/projects/v-1-0-Full-Stack-CV.docx" download>
+              <button className="download-cv-font md:text-xl text-sm font-mono text-indigo-100 fade-in-3 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
+                Download Word
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
