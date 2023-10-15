@@ -6,10 +6,10 @@ const Projects = () => {
   const projects = [
     {
       id: 5455,
-      baseUrl: "/projects/png-to-html-and-css/",
+      baseUrl: "/projects/png-to-html-css/",
       title: "Dashboard API",
       description: "Upwork Project, Converting png image to html and css code",
-      images: ["0.png"],
+      images: ["0.webp"],
       links: {
         liveDemo: "https://strong-cupcake-c79704.netlify.app/",
       },
@@ -21,14 +21,14 @@ const Projects = () => {
       description:
         "Upwork Project, Integration of a dashboard API into dashboard template",
       images: [
-        "1.png",
-        "2.png",
-        "3.png",
-        "4.png",
-        "5.png",
-        "6.png",
-        "7.png",
-        "8.png",
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp",
+        "5.webp",
+        "6.webp",
+        "7.webp",
+        "8.webp",
       ],
       links: {},
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "Spider  Template",
       description:
         "Its an awesome project built with nextjs and styles completely with tailwindcss and its completely responsive, with awesome design, it has all the pages needed for an ecommerce web app",
-      images: ["0.png", "1.png", "2.png", "3.png", "4.png"],
+      images: ["0.webp", "1.webp", "2.webp", "3.webp", "4.webp"],
       links: {
         liveDemo: "https://spider-blue.netlify.app/",
       },
@@ -50,15 +50,15 @@ const Projects = () => {
       description:
         "Its an awesome project built with nextjs and styles completely with tailwindcss and its completely responsive, with awesome design, it has all the pages needed for an ecommerce web app",
       images: [
-        "1.png",
-        "2.png",
-        "3.png",
-        "4.png",
-        "5.png",
-        "6.png",
-        "7.png",
-        "8.png",
-        "9.png",
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp",
+        "5.webp",
+        "6.webp",
+        "7.webp",
+        "8.webp",
+        "9.webp",
       ],
       links: {
         liveDemo: "https://deman-eccomerce-mahmoud.netlify.app/",
@@ -73,15 +73,15 @@ const Projects = () => {
       description:
         "its a food ecommerce app built with nextjs styled completely with tailwindcss and its completely responsive , with all needed pages",
       images: [
-        "1.png",
-        "2.png",
-        "3.png",
-        "4.png",
-        "5.png",
-        "6.png",
-        "7.png",
-        "8.png",
-        "9.png",
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp",
+        "5.webp",
+        "6.webp",
+        "7.webp",
+        "8.webp",
+        "9.webp",
       ],
       links: {
         liveDemo: "https://restaurant-ecommerce-app.netlify.app/",
@@ -94,7 +94,7 @@ const Projects = () => {
       title: "Cloud App",
       description:
         "A Cloud web app built with Reactjs and styled completely with tailwindcss, completely responsive and good looking. it has all the sections needed",
-      images: ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"],
+      images: ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp"],
       links: {
         liveDemo: "https://cloud-app-mahmoud-dev.netlify.app",
         github: "https://github.com/mahmoud-ashraf-devloper/cloud_app_react",
