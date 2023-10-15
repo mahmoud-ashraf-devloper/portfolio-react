@@ -88,18 +88,6 @@ const Projects = () => {
         github: "https://github.com/mahmoud-ashraf-devloper/food_delivery_app",
       },
     },
-    {
-      id: 3,
-      baseUrl: "/projects/cloud-app/",
-      title: "Cloud App",
-      description:
-        "A Cloud web app built with Reactjs and styled completely with tailwindcss, completely responsive and good looking. it has all the sections needed",
-      images: ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp", "6.webp"],
-      links: {
-        liveDemo: "https://cloud-app-mahmoud-dev.netlify.app",
-        github: "https://github.com/mahmoud-ashraf-devloper/cloud_app_react",
-      },
-    },
   ];
 
   return (
