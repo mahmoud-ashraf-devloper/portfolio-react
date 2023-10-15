@@ -30,9 +30,7 @@ const Projects = () => {
         "7.png",
         "8.png",
       ],
-      links: {
-        liveDemo: "#",
-      },
+      links: {},
     },
     {
       id: 0,
