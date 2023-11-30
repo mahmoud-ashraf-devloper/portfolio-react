@@ -53,12 +53,12 @@ const Home = () => {
         <div className="flex flex-col">
           <div className="my-4">Download My CV:</div>
           <div className="flex md:flex-row flex-col w-full md:space-x-3 space-y-2 md:space-y-0">
-            <a href="/projects/v-1-0-Full-Stack-CV.pdf" download>
+            <a href="/projects/Mahmoud-Ashraf-Full-Stack-PHP.pdf" download>
               <button className="download-cv-font md:text-xl text-sm font-mono text-indigo-100 fade-in-3 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
                 Download PDF
               </button>
             </a>
-            <a href="/projects/v-1-0-Full-Stack-CV.docx" download>
+            <a href="/projects/Mahmoud-Ashraf-Full-Stack-PHP.docx" download>
               <button className="download-cv-font md:text-xl text-sm font-mono text-indigo-100 fade-in-3 flex justify-center  whitespace-nowrap px-8 py-2 rounded-md tracking-wider from-indigo-500 to-purple-800 bg-gradient-to-bl hover:bg-gradient-to-br hover:text-white/80 transition duration-300 ease-in-out uppercase">
                 Download Word
               </button>
